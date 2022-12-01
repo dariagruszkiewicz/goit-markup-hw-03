@@ -1,6 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .main-title {
@@ -9,7 +20,12 @@ body {
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  display: flex;
   text-align: center;
+  padding-top: 106px;
+  padding-right: 237px;
+  padding-left: 237px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -51,10 +67,18 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
+  display: flex;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 527px 106px 527px;
 }
+
 
 .first-section {
   background-color: #2f303a;
+  display: flex;
 }
 
 .second-section-title {
@@ -77,6 +101,8 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom:50px;
+  margin: 0 auto;
 }
 
 .portfolio-button-list-item {
@@ -85,6 +111,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
+  padding: 6px 22px;
+  border-radius: 4px;
 }
 
 .portfolio-button-list-item:hover,
@@ -92,6 +120,7 @@ body {
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-titles {
@@ -99,12 +128,14 @@ body {
   font-size: 1.13rem;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding: 20px 24px 4px 24px;
 }
 
 .portfolio-desctiption {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
+  padding: 0px 24px 20px 24px;
 }
 
 .employee-names {
@@ -112,6 +143,9 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .employee-position {
@@ -119,12 +153,16 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  background-color: #ffffff;
+  padding-bottom: 30px;
 }
 
 .footer-style {
   background-color: #2f303a;
   color: #ffffff;
   font-size: 0.88rem;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-contacts-link {
@@ -158,3 +196,109 @@ body {
 .portfolio-images-list {
   list-style-type: none;
 }
+
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.header-box{
+display: flex;
+height: 80px;
+align-items: center;}
+
+.nav-box{
+display: flex;
+align-items: center;
+}
+
+.nav-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 254px;
+  height: 16px;
+  margin-right: 371px
+}
+
+.logo-header-box{
+width: 145px;
+display: flex;
+justify-content: flex-start;
+margin-right: 93px;
+}
+
+.header-contacts-link-mail{
+  margin-right: 50px;
+}
+
+.second-section-list{
+  display: flex;
+  width: 1170px;
+  padding-left: 0px;
+  gap: 30px;
+}
+
+.third-section-box{
+  width: 1170px;
+}
+
+.third-section-list{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+.employee-section{
+  background-color: #F5F4FA;
+}
+
+.employee-list{
+  display: flex;
+  width: 1170px;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+
+.address-box{
+  width: 246px;
+  height: 81px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.second-section{
+  padding-bottom: 0px;
+}
+
+.portfolio-button-list{
+  display: flex;
+  width: 572px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.portfolio-images-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-left: 0px;
+}
+
+.portfolio-images-list-item{
+  border: 1px solid #eee
+}
+
+.portfolio-header-style{
+  border-bottom: 1px solid #ECECEC;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+

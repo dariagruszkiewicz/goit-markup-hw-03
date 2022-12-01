@@ -15,8 +15,10 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a class="logo" href="index.html">
+    <div class="container">
+    <div class="header-box">
+      <nav class="nav-box">
+        <a class="logo logo-header-box" href="index.html">
           <span class="logo-front">Web</span>Studio
         </a>
         <ul class="nav-list">
@@ -25,15 +27,20 @@
           <li><a class="nav-link" href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <a class="header-contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="header-contacts-link header-contacts-link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
       <a class="header-contacts-link" href="tel:+48111111111">+48 111 111 111</a>
+    </div>
+    </div>
     </header>
     <main>
-      <section class="first-section">
+      <section class="section first-section">
+        <div class="container">
         <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button class="main-button" type="button">Zamów usługe</button>
-      </section>
-      <section>
+        </div>
+      </section> 
+      <section class="section second-section">
+        <div class="container">
         <ul class="second-section-list">
           <li>
             <h2 class="second-section-title">LOREM IPSUM</h2>
@@ -64,8 +71,11 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
-      <section>
+      <section class="section">
+        <div class="container">
+        <div class="third-section-box">
         <h2 class="subtitle">Czym się zajmujemy</h2>
         <ul class="third-section-list">
           <li>
@@ -93,8 +103,11 @@
             />
           </li>
         </ul>
+      </div>
+        </div>
       </section>
-      <section>
+      <section class=" section employee-section">
+        <div class="container">
         <h2 class="subtitle">Nasz zespół</h2>
         <ul class="employee-list">
           <li>
@@ -138,18 +151,21 @@
             <div class="employee-position">UI Designer</div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer-style">
-      <a class="logo" href="index.html">
+      <div class="container">
+      <a class="logo footer-logo" href="index.html">
         <span class="logo-front">Web</span>
         <span class="logo-back">Studio</span>
       </a>
-      <address>
+      <address class="address-box">
         m. Warszawa, Aleje Jerozolimskie 21
-        <a class="footer-contacts-link" href="mailto:info@example.com">info@example.com</a>
-        <a class="footer-contacts-link" href="tel:+48111111111">+48 111 111 111</a>
+        <a class="footer-contacts-link footer-contacts-link-email" href="mailto:info@example.com">info@example.com</a>
+        <a class="footer-contacts-link footer-contacts-link-phone" href="tel:+48111111111">+48 111 111 111</a>
       </address>
+      </div>
     </footer>
   </body>
 </html>
