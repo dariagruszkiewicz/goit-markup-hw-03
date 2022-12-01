@@ -9,7 +9,7 @@ body {
   color: #212121;
 }
 
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -74,7 +74,6 @@ body {
   align-items: center;
   margin: 30px 527px 106px 527px;
 }
-
 
 .first-section {
   background-color: #2f303a;
@@ -197,22 +196,23 @@ body {
   list-style-type: none;
 }
 
-.section{
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.header-box{
+.header-box {
 display: flex;
 height: 80px;
-align-items: center;}
+align-items: center;
+}
 
-.nav-box{
+.nav-box {
 display: flex;
 align-items: center;
 }
 
-.nav-list{
+.nav-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -221,47 +221,53 @@ align-items: center;
   margin-right: 371px
 }
 
-.logo-header-box{
+.logo-header-box {
 width: 145px;
 display: flex;
 justify-content: flex-start;
 margin-right: 93px;
 }
 
-.header-contacts-link-mail{
+.header-contacts-link-mail {
   margin-right: 50px;
 }
 
-.second-section-list{
+.second-section-list {
   display: flex;
   width: 1170px;
   padding-left: 0px;
   gap: 30px;
 }
 
-.third-section-box{
+.third-section-box {
   width: 1170px;
 }
 
-.third-section-list{
+.third-section-list {
   display: flex;
   justify-content: space-between;
   padding-left: 0px;
   padding-bottom: 0px;
 }
 
-.employee-section{
+.employee-section {
   background-color: #F5F4FA;
 }
 
-.employee-list{
+.employee-list {
   display: flex;
   width: 1170px;
   justify-content: space-between;
   padding-left: 0px;
 }
 
-.address-box{
+.employee-list-item {
+box-shadow: 0px 2px 1px 0px #00000033;
+box-shadow: 0px 1px 1px 0px #00000024;
+box-shadow: 0px 1px 3px 0px #0000001F;
+}
+
+.address-box {
   width: 246px;
   height: 81px;
   display: flex;
@@ -270,35 +276,33 @@ margin-right: 93px;
   margin-top: 20px;
 }
 
-.second-section{
+.second-section {
   padding-bottom: 0px;
 }
 
-.portfolio-button-list{
+.portfolio-button-list {
   display: flex;
   width: 572px;
   align-items: flex-start;
   justify-content: space-between;
+  gap:8px;
   margin: 0 auto;
   padding-bottom: 50px;
 }
 
-.portfolio-images-list{
+.portfolio-images-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   padding-left: 0px;
 }
 
-.portfolio-images-list-item{
+.portfolio-images-list-item {
   border: 1px solid #eee
 }
 
-.portfolio-header-style{
+.portfolio-header-style {
   border-bottom: 1px solid #ECECEC;
   max-width: 1200px;
   margin: 0 auto;
 }
-
-
-
